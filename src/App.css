@@ -1,0 +1,126 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.relative {
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.space-y-6 {
+  margin-bottom: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-pink-600 {
+  color: #ec4899;
+}
+
+.text-gray-700 {
+  color: #4b5563;
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, #ffcccb, #f3d1d8);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.shadow-2xl {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.bg-pink-500 {
+  background-color: #ec4899;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-white/80 {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
